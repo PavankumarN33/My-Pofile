@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.maindiv {
+    display: flex;
+    background-color: rgb(212, 200, 224);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+li {
+    list-style: none;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40rem;
+    margin-right: 10rem;
+}
+
+.head-container {
+    width: 300px;
+    margin-left: 10rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+ 
+}
+
+.headding1 {
+    color: blue;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.txt {
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 2px;
+
+}
+
+
+.right-img {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 21rem;
+    margin-bottom: 20px;
+}
+
+.middlediv {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.txt-center {
+    text-align: center;
+    
+}
+
+.section-container {
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.card-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card-img {
+    width: 200px;
+    display: flex;
+}
+
+.text {
+    display: inline-block; 
+}
